@@ -1,49 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Secreta</title>
 </head>
+
 <body>
+    <!--Inicio do cabecalho-->
     <header class="topo">
         <div class="topo-pousada">
-            <a href="index.html">Pousada Secreta</a>
-        </div>
-        <div class="topo-pagina">
-            <a href="#">Sobre</a>
-            <a href="#">Rotas</a>
-            <a href="#">Quartos</a>
-        </div>
-        <main class="container-main" >
-            <div class="descricao-imagem">
-                <img src="" alt="">
+            <a href="index.html">Pousada <span>Secreta</span></a>
+
+            <div class="topo-pagina">
+                <a href="#sobre">Sobre</a>
+                <a href="#rota">Rota</a>
+                <a href="#">Quartos</a>
             </div>
-            <div class="descricao" >
-                <h1>Pousada Secreta</h1>
+        </div>
+    </header>
+    <!--Final do cabecalho-->
+
+    <!--Inicio do conteúdo principal-->
+    <main class="container-main">
+        <div class="descricao">
+            <div class="descricao-text">
+                <h1>
+                    Pousada Secreta
+                </h1>
                 <p>A pousada reservada em Angra dos Reis</p>
             </div>
+        </div>
+        <div>
             <div class="descricao-bem-vindo">
                 <h2>SEJA BEM VINDO</h2>
+
                 <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</p>
+
                 <p>Temos quartos para solteiros, casal ou família.</p>
             </div>
-            <div class="tipo-quartos">
-                <div class="quartos">
-                    <img src="assets/quarto-solteiro1.jpg" alt="Quarto para solteiros">
-                </div>
-                <a href="#">Quarto de solteiro</a>
-                <div class="quartos">
-                    <img src="assets/quarto-casal1.jpg" alt="Quarto para casal">
-                </div>
-                <a href="#">Quarto de casal</a>
-                <div class="quartos">
-                    <img src="assets/quarto-familia1.jpg" alt="Quarto para família">
-                </div>
-                <a href="#">Quarto família	</a>
+        </div>
+
+        <div class="tipo-quartos">
+
+            <div class="quartos">
+                <img src="assets/quarto-solteiro1.jpg" alt="Quarto para solteiros">
+                <a href="quartos.html#solteiro">
+                    <p>
+                        Quartos de solteiro
+                    </p>
+                </a>
             </div>
-        </main>
-    </header>
+
+            <div class="quartos">
+                <img src="assets/quarto-casal1.jpg" alt="Quarto para casal">
+                <a href="quartos.html#casal">
+                    <p>
+                        Quarto de casal
+                    </p>
+                </a>
+            </div>
+
+            <div class="quartos">
+                <img src="assets/quarto-familia1.jpg" alt="Quarto para família">
+                <a href="quartos.html#familia">
+                    <p>
+                        Quarto família
+                    </p>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="rota" id="rota">
+            <h2>
+                ROTA
+            </h2>
+            <p>
+                Veja como chegar até a pousada.
+            </p>
+        </div>
+
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.117928111817!2d-43.36637978503287!3d-22.98269058497326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1641088884806!5m2!1spt-BR!2sbr"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="sobre-pousada" id="sobre">
+
+            <h2>
+                SOBRE A POUSADA!
+            </h2>
+            <p>
+                Conheça um pouco sobre a nossa pousada.
+            </p>
+
+        </div>
+
+        <div class="sobre-pousada-descricao">
+            <div class="descricao-sobre">
+                <h3>
+                    A pousada
+                </h3>
+                <p>
+                    A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.
+                </p>
+                <img src="assets/img1.jpg" alt="A pousada">
+            </div>
+
+            <div class="descricao-sobre">
+                <h3>
+                    Nossos quartos
+                </h3>
+                <p>
+                    Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as
+                    unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.
+                </p>
+                <img src="assets/img2.jpg" alt="Quartos">
+            </div>
+
+            <div class="descricao-sobre">
+                <h3>
+                    Alimentação
+                </h3>
+                <p>
+                    A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs.
+                </p>
+                <img src="assets/img3.jpg" alt="Alimentação">
+            </div>
+
+            <div class="descricao-sobre">
+                <h3>
+                    Recepção
+                </h3>
+                <p>
+                    Nossa recepção fica aberta 24hrs.
+                </p>
+                <img src="assets/img5.jpg" alt="Recepção">
+            </div>
+        </div>
+    </main>
+    <!--Final do conteúdo principal-->
+
+    <!--Inicio do rodape-->
+    <footer class="rodape">
+
+        <div class="rodape-item">
+            <div class="rodape-contato">
+                <h4>Entre em contato conosco:</h4>
+            </div>
+
+            <a target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
+
+                <p>
+                    Endereço
+                    Av. 123, 222 - Rio de Janeiro RJ
+                </p>
+
+            </a>
+
+            <div class="rodape-tel">
+                <img src="assets/icones/telefone.png" alt="icone do telefone" title="icone do telefone">
+
+                <p>
+                    Cel 5521000000000
+                </p>
+
+            </div>
+
+            <a target="_blank"
+                href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&">
+                <img src="assets/icones/calendario.png" alt="Ícone calendario" title="Ícone calendario" />
+
+                <p>
+                    Faça sua reserva pelo Booking.com
+                </p>
+            </a>
+
+            <div class="rodape-direitos">
+                © Copyright - PousadaDev
+            </div>
+
+    </footer>
+    <!--Final do rodape-->
 </body>
+
 </html>
