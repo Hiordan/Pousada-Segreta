@@ -6,8 +6,11 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
+.container{
+    max-width: 1024px;
+}
 
-.topo-pousada{
+.topo .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -16,16 +19,20 @@ body{
     width: 100%;
     background-color: #fff;
     padding: 20px;
+
 }
-.topo-nome{
+.link-logotipo{
     color:  #083750;
     text-transform: uppercase;
 }
-.topo-nome span{
+.link-logotipo span{
     color:  #5fb6e5;
 }
-.topo-pagina a{
+.link-topo{
     text-transform: uppercase;
     margin-left: 20px;
     color: #000;
+}
+.imagem-pousada{
+    width: 1024px;
 }

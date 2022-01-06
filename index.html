@@ -13,31 +13,38 @@
 <body>
     <!--Inicio do cabecalho-->
     <header class="topo">
-        <div class="topo-pousada">
-            <a class="topo-nome"href="index.html">Pousada <span>Secreta</span></a>
+        <div class="tamanho-maximo-container container">
 
-            <div class="topo-pagina">
-                <a class="link-top" href="#sobre">Sobre</a>
-                <a class="link-top" href="#rota">Rota</a>
-                <a class="link-top" href="#">Quartos</a>
+            <a class="link-logotipo" href="index.html">Pousada <span>Secreta</span></a>
+
+            <div>
+
+                <a class="link-topo" href="#sobre">Sobre</a>
+                <a class="link-topo" href="#rota">Rota</a>
+                <a class="link-topo" href="quartos.html">Quartos</a>
+                
             </div>
         </div>
     </header>
     <!--Final do cabecalho-->
 
     <!--Inicio do conteúdo principal-->
-    <main class="container-main">
-        <div class="descricao">
-            <div class="descricao-text">
-                <h1>
-                    Pousada Secreta
-                </h1>
-                <p>A pousada reservada em Angra dos Reis</p>
+    <main class="principal">
+        <div class="titulo-site">
+            <div class="titulo-site-descricao">
+               <h1>
+                   Pousada Secreta
+               </h1>
+               <p>A pousada reservada em Angra dos Reis</p>
+               <img class="imagem-pousada" src="assets/img-fundo.jpg" alt="imagem pousada" title="imagem pousada">
             </div>
         </div>
+
         <div>
-            <div class="descricao-bem-vindo">
-                <h2>SEJA BEM VINDO</h2>
+            <div class="tamanho-maximo-container secao-container">
+                <h2>
+                    Seja bem-vindo(a)!
+                </h2>
 
                 <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</p>
 
@@ -45,9 +52,9 @@
             </div>
         </div>
 
-        <div class="tipo-quartos">
+        <div class="tamanho-maximo-container">
 
-            <div class="quartos">
+            <div class="quarto">
                 <img src="assets/quarto-solteiro1.jpg" alt="Quarto para solteiros">
                 <a href="quartos.html#solteiro">
                     <p>
@@ -56,7 +63,7 @@
                 </a>
             </div>
 
-            <div class="quartos">
+            <div class="quarto">
                 <img src="assets/quarto-casal1.jpg" alt="Quarto para casal">
                 <a href="quartos.html#casal">
                     <p>
@@ -65,7 +72,7 @@
                 </a>
             </div>
 
-            <div class="quartos">
+            <div class="quarto">
                 <img src="assets/quarto-familia1.jpg" alt="Quarto para família">
                 <a href="quartos.html#familia">
                     <p>
@@ -76,26 +83,26 @@
 
         </div>
 
-        <div class="rota" id="rota">
+        <div id="rota" class="tamanho-maximo-container secao-container">
             <h2>
-                ROTA
+                Rota
             </h2>
             <p>
                 Veja como chegar até a pousada.
             </p>
         </div>
 
-        <div class="mapa">
+        <div class="container-rota">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.117928111817!2d-43.36637978503287!3d-22.98269058497326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1641088884806!5m2!1spt-BR!2sbr"
                 width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </div>
 
-        <div class="sobre-pousada" id="sobre">
+        <div id="sobre" class="sobre-pousada" >
 
             <h2>
-                SOBRE A POUSADA!
+                Sobre a pousada!
             </h2>
             <p>
                 Conheça um pouco sobre a nossa pousada.
@@ -103,45 +110,57 @@
 
         </div>
 
-        <div class="sobre-pousada-descricao">
-            <div class="descricao-sobre">
-                <h3>
-                    A pousada
-                </h3>
-                <p>
-                    A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.
-                </p>
+        <div class="tamanho-maximo-container descricao">
+            <div class="descricao">
+                <div class="descricao-conteudo">
+                    <h3>
+                        A pousada
+                    </h3>
+                    <p>
+                        A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.
+                    </p>
+                </div>
+                
                 <img src="assets/img1.jpg" alt="A pousada">
             </div>
 
-            <div class="descricao-sobre">
-                <h3>
-                    Nossos quartos
-                </h3>
-                <p>
-                    Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as
-                    unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.
-                </p>
+            <div class="descricao">
+                <div class="descricao-conteudo">
+                    <h3>
+                        Nossos quartos
+                    </h3>
+                    <p>
+                        Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as
+                        unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.
+                    </p>
+                </div>
+                
                 <img src="assets/img2.jpg" alt="Quartos">
             </div>
 
-            <div class="descricao-sobre">
-                <h3>
-                    Alimentação
-                </h3>
-                <p>
-                    A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs.
-                </p>
+            <div class="descricao">
+                <div class="descricao-conteudo">
+                    <h3>
+                        Alimentação
+                    </h3>
+                    <p>
+                        A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs.
+                    </p>
+                </div>
+
                 <img src="assets/img3.jpg" alt="Alimentação">
             </div>
 
-            <div class="descricao-sobre">
-                <h3>
-                    Recepção
-                </h3>
-                <p>
-                    Nossa recepção fica aberta 24hrs.
-                </p>
+            <div class="descricao">
+                <div class="descricao-conteudo">
+                    <h3>
+                        Recepção
+                    </h3>
+                    <p>
+                        Nossa recepção fica aberta 24hrs.
+                    </p>
+                </div>
+
                 <img src="assets/img5.jpg" alt="Recepção">
             </div>
         </div>
@@ -151,12 +170,12 @@
     <!--Inicio do rodape-->
     <footer class="rodape">
 
-        <div class="rodape-item">
-            <div class="rodape-contato">
+        <div class="tamanho-maximo-container rodape-container">
+            <div class="rodape-info">
                 <h4>Entre em contato conosco:</h4>
             </div>
 
-            <a target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
+            <a class= "rodape-info rodape-link" target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
 
                 <p>
                     Endereço
@@ -174,7 +193,7 @@
 
             </div>
 
-            <a target="_blank"
+            <a class="rodape-info" target="_blank"
                 href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&">
                 <img src="assets/icones/calendario.png" alt="Ícone calendario" title="Ícone calendario" />
 
@@ -183,7 +202,7 @@
                 </p>
             </a>
 
-            <div class="rodape-direitos">
+            <div class="rodape-copyright">
                 © Copyright - PousadaDev
             </div>
 
