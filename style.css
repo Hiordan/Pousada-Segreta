@@ -10,16 +10,19 @@ body{
     max-width: 1024px;
 }
 
+.topo {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+}
+
 .topo .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    top: 0;
     width: 100%;
-    background-color: #fff;
     padding: 20px;
-
 }
 .link-logotipo{
     color:  #083750;
@@ -30,9 +33,20 @@ body{
 }
 .link-topo{
     text-transform: uppercase;
-    margin-left: 20px;
-    color: #000;
+    line-height: 18px;
+    padding: 0px 15px 10px 15px;
+    color: #3d3d3d;
 }
 .imagem-pousada{
     width: 1024px;
+}
+.titulo-site-descricao{
+    background-image: url('assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
