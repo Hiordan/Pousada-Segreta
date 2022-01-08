@@ -40,7 +40,7 @@ body{
 .imagem-pousada{
     width: 1024px;
 }
-.titulo-site-descricao{
+.titulo-site{
     background-image: url('assets/img-fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,4 +49,47 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;    
+}
+.titulo-site-descricao{
+    color: #fff;
+    font-size: 18px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.secao-container {
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.secao-container h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.quartos {
+    display: flex;
+    justify-content: space-between;
+}
+.quarto{
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00836a;
+    color: #3d3d3d
+}
+.quarto a {
+    color: #333;
+}
+.quarto p{
+    text-align: center;
+}
+
+.tamanho-maximo-container{
+    max-width: 1024px;
+    margin: 0;
 }
